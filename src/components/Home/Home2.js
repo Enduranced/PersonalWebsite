@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import Mepic from "../../Assets/Mepic.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -44,7 +44,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={Mepic} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
