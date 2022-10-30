@@ -1,0 +1,50 @@
+html {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+  --section-background-color-first: linear-gradient(
+    to bottom left,
+    rgba(241, 238, 238, 0.582),
+    rgba(144, 143, 146, 0.712)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
+
+  --imp-text-color: #000000;
+}
+
+.about-section {
+  text-align: center;
+  padding-top: 5px !important; /*This controls the top */
+  padding-bottom: 10px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+  font-family: "Raleway", 'Sans Serif' 
+}
+
+.FirstPara {
+  padding-top: 20px
+}
+
+
+.Timeline{
+  margin-top: 7%;
+}
+#p{
+  font-family: "Raleway", 'Sans Serif'  
+}
+
+h4, .h4 {
+  margin-top: 3%;
+  font-size: 1.2em;
+}
+
+h3, .h3 {
+  font-family: 'Madeline' 'Sans Serif' ;
+}
