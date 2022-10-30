@@ -10,7 +10,7 @@ import './resume.css'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+  "https://raw.githubusercontent.com/Enduranced/PersonalWebsite/main/src/Assets/Resume_2023.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

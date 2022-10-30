@@ -28,18 +28,18 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of interest is in analyzing financial data and building financial infrasturcture &nbsp;
+              My field of interest is in analyzing financial data and building financial tools &nbsp;
               <i>
-                <b className="purple">Quant Trading Strategies </b> and
+                <b className="purple">Develop Trading Strategies </b> and
                 {" "}
                 <b className="purple">
-                  Building Micro-Services for trading activities
+                  Building Micro-Services with technologies
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also a tech enthusiast that is excited to pick up new coding languages, teach mathematics and understand new financial products. 
-              Find out more about  my past experiences and capabilities. <Link to={About}>here</Link>
+              Whenever possible, I also a tech enthusiast that is excited to pick up new coding languages/technology , mathematics and understanding new financial products. 
+              Find out more about my past experiences and capabilities today!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -48,7 +48,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -97,7 +97,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

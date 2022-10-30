@@ -91,7 +91,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://blogs.soumya-jit.tech/"
                 target="_blank"
@@ -99,8 +99,8 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Math
               </Nav.Link>
-            </Nav.Item>
-
+            </Nav.Item> */}
+{/* 
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/soumyajit4419/Portfolio"
@@ -109,7 +109,7 @@ function NavBar() {
               >
                 Nexus Login
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
