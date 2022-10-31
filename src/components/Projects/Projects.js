@@ -114,7 +114,7 @@ function Projects() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sasdaf9/"
+                  href="https://www.linkedin.com/in/spencer-n-7656a897/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
