@@ -3,6 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import MatrixRain from "../MatrixRain";
 
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
+import {
+  AiFillGithub,
+  AiOutlineMail,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 import "./About.css"
 function About() {
@@ -16,7 +22,7 @@ function About() {
 
           <TimelineItem
             key="001"
-            dateText="Aug 2022 – Now"
+            dateText="Aug 2022 – Present"
             dateInnerStyle={{ background: '#bf212f', color: '#00000' }}
             style={{ color: '#bf212f' }}
             bodyContainerStyle={{
@@ -29,13 +35,13 @@ function About() {
             <h3 style={{color: '#bf212f'}}><strong>Credit Suisse</strong></h3>
             <h4 style={{color: '#bf212f'}}>Credit Portfolio Analyst</h4>
             <p className="FirstPara">
-              Build and designed automation of report generation in python for Portfolio Colleteral Concentration for APAC across; Lombard, Structured and Derivative Financing. 
+              Build and design automation of report generation in python for Portfolio Collateral Concentration for APAC across; Lombard, Structured and Derivative Financing. 
             </p>
             <p>
-              Crafted and currated deep dives to monitor high concentration of colleterals of high net-worth Share Back Lending loans.
+              Crafted and curated deep dives to monitor high concentration of collaterals of high net-worth Share Back Lending loans.
             </p>
             <p>
-              Created and updated China dashboard to gain insights of exposure, colleteral information and credit extension for crsis management  
+              Created and updated China dashboard to gain insights of exposure, collateral information and credit extension for crisis management.
             </p>
           </TimelineItem>
           <TimelineItem
@@ -60,7 +66,7 @@ function About() {
               Research: Identified and compared different statistics of data vendor's dataset on SPAC. Studied the characteristics of the SPAC's lifecycle modelled how it can be traded. Communicated and presented findings to the group. 
             </p>
             <p>
-              Monitoring: Used python to check the quality of datasets base on timeliness, accuracy and completeness of each data vendor's dataset. Scheduled data scraping and parsing jobs from different Trasnfer Protocol. (API, SFTP, SMTP)  
+              Monitoring: Used python to check the quality of datasets base on timeliness, accuracy and completeness of each data vendor's dataset. Scheduled data scraping and parsing jobs from different Transfer Protocols. (API, SFTP, SMTP).  
             </p>
           </TimelineItem>
       
@@ -85,7 +91,7 @@ function About() {
               Designed and wrote automation scripts and GUI in python to draw data from bloomberg for data analysis and other report generation.
             </p>
             <p>
-              Crafted and studied hedge fund concentration risk by identifying the first, second and third order impact through a permutation algorithmn and assigning shocks on portfolios and common stock holdings.
+              Crafted and studied hedge fund concentration risk by identifying the first, second and third order impact through a permutation algorithm and assigning shocks on portfolios and common stock holdings.
             </p>
           </TimelineItem>
 
@@ -102,12 +108,12 @@ function About() {
             }}
           >
             <h3 style={{ color: '#264b96' }}><strong>SCOR Reinsurance</strong></h3>
-            <h4 style={{ color: '#264b96' }}>Pricing Actury Intern</h4>
+            <h4 style={{ color: '#264b96' }}>Pricing Actuary Intern</h4>
             <p className="FirstPara">
-              Contributed to yearly treaty renewal process of short-tail general reinsurance treaties by running internal pricing models to capture tail risks.
+              Contributed to the yearly treaty renewal process of short-tail general reinsurance treaties by running internal pricing models to capture tail risks.
             </p>
             <p>
-              Ran sensitivity analysis of threshold levels for different general insurance products line to price them according to according to expected loss and premiums recieved.
+              Sensitivity analysis of threshold levels for different general insurance products line to price them according according to expected loss and premiums received.
             </p>
             <p>
               Designed and created a visual map dashboard of China to understand the different metric values (Sum Assured, Premium, Burning Cost and Duration) from different provinces and performed K-means/GMM clustering methods to understand profitability of business. Enhanced underwriting and pricing capabilities.
@@ -129,10 +135,10 @@ function About() {
             <h3 style={{ color: '#264b96' }}><strong>SCOR Reinsurance</strong></h3>
             <h4 style={{ color: '#264b96' }}>Valuation Actury Intern</h4>
             <p className="FirstPara">
-              Understudied the different burning cots, sum assured and premium rates for various life reinsurance treaties. Created sensitivity analysis on premium rates methdology on the different treaties with different riders (Critical Illness, Life Insurance and Personal Accident)
+              Understudied the different burning cots, sum assured and premium rates for various life reinsurance treaties. Created sensitivity analysis on premium rates methodology on the different treaties with different riders (Critical Illness, Life Insurance and Personal Accident)
             </p>
             <p>
-              Learned internal tool/metrices used in valuation of mortality tables that is use to guide pricing of direct insurance's underwriting processes. 
+              Learned internal tool/metrics used in valuation of mortality tables that are used to guide pricing of direct insurance's underwriting processes. 
             </p>
           </TimelineItem>
 
@@ -151,13 +157,53 @@ function About() {
             <h3 style={{ color: '#264b96' }}><strong>Adventoro</strong></h3>
             <h4 style={{ color: '#264b96' }}>Growth Hacker</h4>
             <p className="FirstPara">
-              Wrote SEO peices for online marketing of tour package products using Google and Facebook ads analytics. Perform statisticial analysis on click per cost and other websitesite performance to give potential growth ideas and avenues in different South East Asia markets. 
+              Wrote articles base on SEO framework for online marketing of tour package products using Google and Facebook ads analytics. Perform statistical analysis on click per cost and other websites performance to give potential growth ideas and avenues in different South East Asia markets. 
             </p>
             <p>
               Designed used HTML/JavaScript to create websites for new tour packages for front-end development.
             </p>
           </TimelineItem>
           </Timeline>
+          <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/Enduranced"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/sasdaf9/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href= "mailto:spencer8848@gmail.com?subject='Website'&body=Description"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
     </Container>
   );
 }
