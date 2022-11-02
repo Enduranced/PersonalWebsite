@@ -32,10 +32,10 @@ function Home2() {
               <br />
               My field of interest is in analyzing financial datasets and building tools for  &nbsp;
               <i>
-                <b className="purple">Trading Strategies </b> and
+                <b className="purple">Trading</b> and
                 {" "}
                 <b className="purple">
-                  Micro-Services/Infrastructure
+                  Portfolio analytics
                 </b>
               </i>
               <br />
