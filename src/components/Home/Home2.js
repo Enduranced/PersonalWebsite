@@ -35,7 +35,7 @@ function Home2() {
                 <b className="purple">Trading</b> and
                 {" "}
                 <b className="purple">
-                  Portfolio analytics
+                  Portfolio Analytics
                 </b>
               </i>
               <br />
