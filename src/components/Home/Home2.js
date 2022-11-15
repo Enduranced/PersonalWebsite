@@ -26,11 +26,11 @@ function Home2() {
               <br />
               <br />I am fluent in classical programming lanugages like
               <i>
-                <b className="purple"> Python, SQL, Javascript and R </b>
+                <b className="purple"> Python, SQL, JavaScript and R </b>
               </i>
               <br />
               <br />
-              My field of interest is in analyzing financial datasets and building tools for  &nbsp;
+              My field of interest is in analyzing financial datasets and building tools for &nbsp;
               <i>
                 <b className="purple">Trading</b> and
                 {" "}
@@ -40,7 +40,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I am a tech enthusiast that is excited to pick up new coding languages/technology. Furthermore, I am curious about understanding new financial products/assets and mathematics. 
+              Whenever possible, I am a tech enthusiast that is excited to pick up new coding languages/technology skills. Furthermore, I am curious about understanding new financial products/assets and mathematics. 
               Find out more about my past experiences and capabilities today!
             </p>
           </Col>
