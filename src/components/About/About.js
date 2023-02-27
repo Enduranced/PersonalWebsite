@@ -133,7 +133,7 @@ function About() {
             }}
           >
             <h3 style={{ color: '#264b96' }}><strong>SCOR Reinsurance</strong></h3>
-            <h4 style={{ color: '#264b96' }}>Valuation Actury Intern</h4>
+            <h4 style={{ color: '#264b96' }}>Valuation Actuary Intern</h4>
             <p className="FirstPara">
               Understudied the different burning cots, sum assured and premium rates for various life reinsurance treaties. Created sensitivity analysis on premium rates methodology on the different treaties with different riders (Critical Illness, Life Insurance and Personal Accident)
             </p>
