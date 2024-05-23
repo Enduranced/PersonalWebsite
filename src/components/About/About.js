@@ -31,7 +31,7 @@ function About() {
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
               width : '120%'}}>
             <h3 style={{color: '#0086ff'}}><strong>Credit Suisse</strong></h3>
-            <h4 style={{color: '#bf212f'}}>Credit Portfolio Analyst</h4>
+            <h4 style={{color: '#0086ff'}}>Credit Portfolio Analyst</h4>
             <p className="FirstPara">
               Build and design automation of report generation in python for Portfolio Collateral Concentration for APAC across; Lombard, Structured and Derivative Financing. 
             </p>
