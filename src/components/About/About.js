@@ -11,9 +11,8 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 import "./About.css"
+//bf212f red color for future
 function About() {
-
-
   return (
     <Container fluid className="about-section">
       <MatrixRain/>
@@ -22,17 +21,16 @@ function About() {
 
           <TimelineItem
             key="001"
-            dateText="Aug 2022 – Present"
-            dateInnerStyle={{ background: '#bf212f', color: '#00000' }}
-            style={{ color: '#bf212f' }}
+            dateText="Aug 2022 – Apr 2023"
+            dateInnerStyle={{ background: '#0086ff', color: '#00000'}}
+            style={{ color: '#0086ff' }}
             bodyContainerStyle={{
               background: '#ddd',
               padding: '20px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
-              width : '120%'}}
-          >
-            <h3 style={{color: '#bf212f'}}><strong>Credit Suisse</strong></h3>
+              width : '120%'}}>
+            <h3 style={{color: '#0086ff'}}><strong>Credit Suisse</strong></h3>
             <h4 style={{color: '#bf212f'}}>Credit Portfolio Analyst</h4>
             <p className="FirstPara">
               Build and design automation of report generation in python for Portfolio Collateral Concentration for APAC across; Lombard, Structured and Derivative Financing. 
