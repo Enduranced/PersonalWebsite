@@ -29,7 +29,7 @@ function Experiences() {
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
               width : '120%'}}>
-            <h3 style={{color: '#FF0000'}}><strong>World Quant (Milleniumn)</strong></h3>
+            <h3 style={{color: '#FF0000'}}><strong>World Quant (Millennium Management)</strong></h3>
             <h4 style={{color: '#FF0000'}}>Portfolio and Treasury Analyst</h4>
             <p className="FirstPara">
               Create New Trade Automation Tools (Backend and Frontend): 
