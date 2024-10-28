@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const resumeLink =
   "https://raw.githubusercontent.com/Enduranced/PersonalWebsite/main/src/Assets/Resume.pdf";
 
-function ResumeNew() {
+function Outdoors() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {

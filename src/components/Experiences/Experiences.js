@@ -6,24 +6,54 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import {
   AiFillGithub,
   AiOutlineMail,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-import "./About.css"
+import "./Experiences.css"
 //bf212f red color for future
-function About() {
+function Experiences() {
   return (
     <Container fluid className="about-section">
       <MatrixRain/>
 
         <Timeline lineColor={'#ddd'} className='Timeline'>
 
-          <TimelineItem
+        <TimelineItem
             key="001"
+            dateText="Apr 2023 – Current"
+            dateInnerStyle={{ background: '#FF0000', color: '#00000'}}
+            style={{ color: '#FF0000' }}
+            bodyContainerStyle={{
+              background: '#ddd',
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+              width : '120%'}}>
+            <h3 style={{color: '#FF0000'}}><strong>World Quant (Milleniumn)</strong></h3>
+            <h4 style={{color: '#FF0000'}}>Portfolio and Treasury Analyst</h4>
+            <p className="FirstPara">
+              Create New Trade Automation Tools (Backend and Frontend): 
+              <ul>
+                <li> Trade Booking tool to facilitate trades from OMS and EMS </li>
+                <li> Activation UI tool to facilitate start of day checks before Quantitative Trading begins </li>
+                <li> PNL reconcilation UI to help identify and correction PNL at a symbol,strategy and product level </li>
+            </ul>
+            </p>
+            <p>
+              Participate in daily operations rota to help in sourcing locates, PM queries, handling outages, secmaster, restriction list and ensuring continuous systematic trading exercutions. 
+            </p>
+            <p>
+              Setup new markets: India Systematic Trading and onboard quantitative strategies for market.
+            </p>
+            <p>
+              Ad hoc analysis; locates fillrates, execution fillrates, financing costs, execution costs and rebates from internalization.
+            </p>
+          </TimelineItem>
+
+          <TimelineItem
+            key="002"
             dateText="Aug 2022 – Apr 2023"
             dateInnerStyle={{ background: '#0086ff', color: '#00000'}}
-            style={{ color: '#0086ff' }}
             bodyContainerStyle={{
               background: '#ddd',
               padding: '20px',
@@ -43,7 +73,7 @@ function About() {
             </p>
           </TimelineItem>
           <TimelineItem
-            key="002"
+            key="003"
             dateText="Aug 2021 – Dec 2021"
             dateStyle = {{innerHeight: '2rem'}}
             dateInnerStyle={{ background: '#0086ff', color: '#00000' }}
@@ -69,7 +99,7 @@ function About() {
           </TimelineItem>
       
           <TimelineItem
-            key="003"
+            key="004"
             dateText="May 2021 – Aug 2021"
             dateInnerStyle={{ background: '#0086ff', color: '#00000' }}
             bodyContainerStyle={{
@@ -94,7 +124,7 @@ function About() {
           </TimelineItem>
 
           <TimelineItem
-            key="004"
+            key="005"
             dateText="Aug 2020 – Dec 2020"
             dateInnerStyle={{ background: '#0086ff', color: '#00000' }}
             bodyContainerStyle={{
@@ -119,7 +149,7 @@ function About() {
           </TimelineItem>
 
           <TimelineItem
-            key="005"
+            key="006"
             dateText="May 2020 – Aug 2020"
             dateInnerStyle={{ background: '#0086ff', color: '#00000' }}
             bodyContainerStyle={{
@@ -141,7 +171,7 @@ function About() {
           </TimelineItem>
 
           <TimelineItem
-            key="006"
+            key="007"
             dateText="May 2019 – Aug 2019"
             dateInnerStyle={{ background: '#0086ff', color: '#00000'}}
             bodyContainerStyle={{
@@ -205,7 +235,4 @@ function About() {
     </Container>
   );
 }
-
-
-
-export default About;
+export default Experiences;

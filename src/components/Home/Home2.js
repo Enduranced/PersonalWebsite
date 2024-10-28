@@ -1,15 +1,12 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import Mepic from "../../Assets/Mepic.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineMail,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import About from "../About/About";
 
 
 function Home2() {
