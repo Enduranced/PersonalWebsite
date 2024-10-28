@@ -34,19 +34,19 @@ function Experiences() {
             <p className="FirstPara">
               Create New Trade Automation Tools (Backend and Frontend): 
               <ul>
-                <li> Trade Booking tool to facilitate trades from OMS and EMS </li>
-                <li> Activation UI tool to facilitate start of day checks before Quantitative Trading begins </li>
-                <li> PNL reconcilation UI to help identify and correction PNL at a symbol,strategy and product level </li>
+                <li>Trade Booking tool to facilitate trades from OMS and EMS</li>
+                <li>Activation UI tool to facilitate start-of-day checks before quantitative trading begins</li>
+                <li>P&L reconciliation UI to help identify and correct P&L at a symbol, strategy, and product level</li>
             </ul>
             </p>
             <p>
-              Participate in daily operations rota to help in sourcing locates, PM queries, handling outages, secmaster, restriction list and ensuring continuous systematic trading exercutions. 
+            Participate in daily operations rota to help with sourcing locates, PM queries, handling outages, SecMaster, the restriction list, and ensuring continuous systematic trading executions. 
             </p>
             <p>
-              Setup new markets: India Systematic Trading and onboard quantitative strategies for market.
+            Set up new markets: India Systematic Trading and onboard quantitative strategies for the market.
             </p>
             <p>
-              Ad hoc analysis; locates fillrates, execution fillrates, financing costs, execution costs and rebates from internalization.
+            Ad hoc analysis: locate fill rates, execution fill rates, financing costs, execution costs, and rebates from internalization
             </p>
           </TimelineItem>
 
